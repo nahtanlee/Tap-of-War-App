@@ -3,17 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EE173492B2D658800901BDD /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3EE173482B2D658800901BDD /* ConfettiSwiftUI */; };
+		9051EA8C2B21D5FF00AAAB4D /* Subway Novella.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9051EA8B2B21D5FF00AAAB4D /* Subway Novella.ttf */; };
+		9051EA8E2B21DFC700AAAB4D /* TudorVictors.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9051EA8D2B21DE7100AAAB4D /* TudorVictors.ttf */; };
+		906BAF4A2B26D96B000FC3E1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906BAF492B26D96B000FC3E1 /* SettingsView.swift */; };
 		9081BB8C2B1F1DA10064FE7D /* Tap_of_WarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BB8B2B1F1DA10064FE7D /* Tap_of_WarApp.swift */; };
-		9081BB8E2B1F1DA10064FE7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BB8D2B1F1DA10064FE7D /* ContentView.swift */; };
+		9081BB8E2B1F1DA10064FE7D /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BB8D2B1F1DA10064FE7D /* GameView.swift */; };
 		9081BB902B1F1DA20064FE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9081BB8F2B1F1DA20064FE7D /* Assets.xcassets */; };
 		9081BB932B1F1DA20064FE7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9081BB922B1F1DA20064FE7D /* Preview Assets.xcassets */; };
 		9081BB9D2B1F1DA20064FE7D /* Tap_of_WarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BB9C2B1F1DA20064FE7D /* Tap_of_WarTests.swift */; };
 		9081BBA72B1F1DA20064FE7D /* Tap_of_WarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BBA62B1F1DA20064FE7D /* Tap_of_WarUITests.swift */; };
 		9081BBA92B1F1DA20064FE7D /* Tap_of_WarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BBA82B1F1DA20064FE7D /* Tap_of_WarUITestsLaunchTests.swift */; };
+		9081BBB92B207BD30064FE7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BBB82B207BD30064FE7D /* ContentView.swift */; };
+		9081BBBB2B207C3D0064FE7D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BBBA2B207C3D0064FE7D /* MenuView.swift */; };
+		9081BBBD2B2082890064FE7D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9081BBBC2B2082890064FE7D /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9051EA8B2B21D5FF00AAAB4D /* Subway Novella.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Subway Novella.ttf"; sourceTree = "<group>"; };
+		9051EA8D2B21DE7100AAAB4D /* TudorVictors.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TudorVictors.ttf; sourceTree = "<group>"; };
+		906BAF492B26D96B000FC3E1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9081BB882B1F1DA10064FE7D /* Tap of War.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tap of War.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9081BB8B2B1F1DA10064FE7D /* Tap_of_WarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_of_WarApp.swift; sourceTree = "<group>"; };
-		9081BB8D2B1F1DA10064FE7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9081BB8D2B1F1DA10064FE7D /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		9081BB8F2B1F1DA20064FE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9081BB922B1F1DA20064FE7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9081BB982B1F1DA20064FE7D /* Tap of WarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap of WarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,10 @@
 		9081BBA22B1F1DA20064FE7D /* Tap of WarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap of WarUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9081BBA62B1F1DA20064FE7D /* Tap_of_WarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_of_WarUITests.swift; sourceTree = "<group>"; };
 		9081BBA82B1F1DA20064FE7D /* Tap_of_WarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tap_of_WarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9081BBB52B1FC1460064FE7D /* Tap-of-War-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Tap-of-War-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9081BBB82B207BD30064FE7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9081BBBA2B207C3D0064FE7D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9081BBBC2B2082890064FE7D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EE173492B2D658800901BDD /* ConfettiSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +109,16 @@
 		9081BB8A2B1F1DA10064FE7D /* Tap of War */ = {
 			isa = PBXGroup;
 			children = (
+				9081BBB52B1FC1460064FE7D /* Tap-of-War-Info.plist */,
 				9081BB8B2B1F1DA10064FE7D /* Tap_of_WarApp.swift */,
-				9081BB8D2B1F1DA10064FE7D /* ContentView.swift */,
+				9081BB8D2B1F1DA10064FE7D /* GameView.swift */,
+				9081BBB82B207BD30064FE7D /* ContentView.swift */,
+				9081BBBA2B207C3D0064FE7D /* MenuView.swift */,
+				906BAF492B26D96B000FC3E1 /* SettingsView.swift */,
+				9081BBBC2B2082890064FE7D /* SplashView.swift */,
 				9081BB8F2B1F1DA20064FE7D /* Assets.xcassets */,
+				9051EA8B2B21D5FF00AAAB4D /* Subway Novella.ttf */,
+				9051EA8D2B21DE7100AAAB4D /* TudorVictors.ttf */,
 				9081BB912B1F1DA20064FE7D /* Preview Content */,
 			);
 			path = "Tap of War";
@@ -143,6 +165,9 @@
 			dependencies = (
 			);
 			name = "Tap of War";
+			packageProductDependencies = (
+				3EE173482B2D658800901BDD /* ConfettiSwiftUI */,
+			);
 			productName = "Tap of War";
 			productReference = 9081BB882B1F1DA10064FE7D /* Tap of War.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +240,9 @@
 				Base,
 			);
 			mainGroup = 9081BB7F2B1F1DA10064FE7D;
+			packageReferences = (
+				3EE173472B2D658800901BDD /* XCLocalSwiftPackageReference "../packages/ConfettiSwiftUI-1.1.0" */,
+			);
 			productRefGroup = 9081BB892B1F1DA10064FE7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +259,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9051EA8E2B21DFC700AAAB4D /* TudorVictors.ttf in Resources */,
 				9081BB932B1F1DA20064FE7D /* Preview Assets.xcassets in Resources */,
 				9081BB902B1F1DA20064FE7D /* Assets.xcassets in Resources */,
+				9051EA8C2B21D5FF00AAAB4D /* Subway Novella.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +287,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9081BB8E2B1F1DA10064FE7D /* ContentView.swift in Sources */,
+				9081BB8E2B1F1DA10064FE7D /* GameView.swift in Sources */,
 				9081BB8C2B1F1DA10064FE7D /* Tap_of_WarApp.swift in Sources */,
+				906BAF4A2B26D96B000FC3E1 /* SettingsView.swift in Sources */,
+				9081BBBB2B207C3D0064FE7D /* MenuView.swift in Sources */,
+				9081BBB92B207BD30064FE7D /* ContentView.swift in Sources */,
+				9081BBBD2B2082890064FE7D /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +381,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -420,26 +454,35 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.6.8;
 				DEVELOPMENT_ASSET_PATHS = "\"Tap of War/Preview Content\"";
 				DEVELOPMENT_TEAM = JDP3VYX86Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tap-of-War-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tap Of War";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.7;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tapofwar.nahtanlee.Tap-of-War";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,26 +492,36 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.7;
 				DEVELOPMENT_ASSET_PATHS = "\"Tap of War/Preview Content\"";
 				DEVELOPMENT_TEAM = JDP3VYX86Y;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tap-of-War-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tap Of War";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.7;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.tapofwar.nahtanlee.Tap-of-War";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -558,7 +611,7 @@
 				9081BBAB2B1F1DA20064FE7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9081BBAC2B1F1DA20064FE7D /* Build configuration list for PBXNativeTarget "Tap of War" */ = {
 			isa = XCConfigurationList;
@@ -567,7 +620,7 @@
 				9081BBAE2B1F1DA20064FE7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9081BBAF2B1F1DA20064FE7D /* Build configuration list for PBXNativeTarget "Tap of WarTests" */ = {
 			isa = XCConfigurationList;
@@ -576,7 +629,7 @@
 				9081BBB12B1F1DA20064FE7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		9081BBB22B1F1DA20064FE7D /* Build configuration list for PBXNativeTarget "Tap of WarUITests" */ = {
 			isa = XCConfigurationList;
@@ -585,9 +638,23 @@
 				9081BBB42B1F1DA20064FE7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3EE173472B2D658800901BDD /* XCLocalSwiftPackageReference "../packages/ConfettiSwiftUI-1.1.0" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../packages/ConfettiSwiftUI-1.1.0";
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3EE173482B2D658800901BDD /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ConfettiSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9081BB802B1F1DA10064FE7D /* Project object */;
 }
